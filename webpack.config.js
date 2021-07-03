@@ -80,7 +80,9 @@ module.exports = {
       new miniCssExtractPlugin({
          filename: 'assets/styles/[name].[contenthash].css'
       }),
-      new dotenv(),
+      new dotenv({
+         path: path.resolve(__dirname, '\.env')
+      }),
       // new copyWebpack({
       //    patterns: [
       //       {

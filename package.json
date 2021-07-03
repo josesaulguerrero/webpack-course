@@ -4,7 +4,9 @@
   "description": "",
   "main": ".src/index.js",
   "scripts": {
+    "prebuild": "rm -rf ./dist",
     "build": "npx webpack --config webpack.config.js",
+    "build-netlify": "npx webpack --config webpack.config.js",
     "dev": "npx webpack --config webpack.config.dev.js"
   },
   "keywords": [],
