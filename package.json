@@ -10,7 +10,7 @@
     "dev": "npx webpack --config webpack.config.dev.js"
   },
   "keywords": [],
-  "author": "Jose Saúl Guerrero Serrano <josesaulserrano15@gmail.com>",
+  "author": "Jose Saúl Guerrero Serrano <josesaulserrano4@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.14.6",
